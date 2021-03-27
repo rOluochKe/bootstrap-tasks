@@ -12,5 +12,12 @@
     "grunt-contrib-sass": "^2.0.0",
     "grunt-contrib-uglify": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "*"
+  },
+  "scripts": {
+    "watch": "grunt watch",
+    "compile-sass-to-css": "grunt sass"
   }
 }
